@@ -7,12 +7,11 @@ package com.fcastillo.junit;
 
 /**
  *
- * @author fcastillo
+ * @author Francisco Castillo
  */
 public class App {
 
-  public int sumar(int a, int b) {
-    return a + b;
-  }
+    public static void main(String[] args) {
 
+    }
 }
