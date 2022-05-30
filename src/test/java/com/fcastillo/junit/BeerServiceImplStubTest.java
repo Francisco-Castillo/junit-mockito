@@ -12,11 +12,13 @@ public class BeerServiceImplStubTest {
 
     @Test
     public void test() {
+        // Stub o mock, es una dependencia falsa
+
         BeerService beerService = new BeerServiceStub();
         BeerServiceImpl beerServiceImpl = new BeerServiceImpl(beerService);
-        
+
         List<String> filteredTodos = beerServiceImpl.retrieveTodosRelatedTo("Norte");
-        
+
         assertEquals(1, filteredTodos.size());
     }
 
